@@ -43,7 +43,7 @@ You can download the pre-compiled, statically linked binary for Linux directly f
 ```bash
 curl -sSL \
   https://github.com/optionfactory/unfuck-properties/releases/latest/download/unfuck-properties-linux-amd64 \
-  sudo tee /usr/local/bin/unfuck-properties > /dev/null \
+  | sudo tee /usr/local/bin/unfuck-properties > /dev/null \
   && sudo chmod +x /usr/local/bin/unfuck-properties
 ```
 
